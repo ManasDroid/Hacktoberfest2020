@@ -1,5 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+void swap(int *a,int *b){
+    int t = *a; *a = *b; *b = t;
+}
+void reverseArray(int a[],int n)){
+    if(n<=1)
+        return;
+    int first = a[0];
+    int last = a[n-1];
+    int numSwaps = n/2;
+    while(numSwaps--){
+        swap(&a[first++], &a[last--]);
+    }
+}
 
 int main()
 {
