@@ -2,24 +2,24 @@
 int main(){
 	
 	int n,d=0;
-	int s=0;
+	int sum=0;
 	
-	printf("Enter a Number\n");
+	printf("Enter the Number to be checked \n");
 	scanf("%d",&n);
 	
 	int z = n;
 	while(n > 0){
 		
 		d = n %10;
-		s+= d*d*d;
+		sum+= d*d*d;
 		n/=10;
 		
 	}
 	
-	if(s==z)
-		printf("It is an Armstrong number");
+	if(sum==z)
+		printf("%d is an Armstrong number",sum);
 	else
-		printf("It is not an Armstrong number");
+		printf("%d is not an Armstrong number",sum);
 		
 	return 0;
 }
