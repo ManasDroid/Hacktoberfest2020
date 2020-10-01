@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int reverse(int n)
 {
   while(n>0)
@@ -17,13 +18,10 @@ int main()
   int n;
   scanf("%d",&n);
   
-  if(n==reverseNo(n))
-  {
+  if(n==reverse(n)
     printf("Palindrome");
-  }
   else
-  { 
     printf("Not a Palindrome number");
-  }
+
   return 0;
  }
