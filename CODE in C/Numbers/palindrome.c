@@ -1,29 +1,30 @@
 #include<stdio.h>
 int reverse(int n)
 {
+  int r=0;
   while(n>0)
   {
-  int r=0;
-  int d=n%10;
-  r=r*10+d;
-  n/=10;
-  }
-  return r;
+    int rem =n%10;
+    rev=rev*10+rem;
+    n/=10;
+   }
+  return rev;
 }
 
 
 int main()
 {
   int n;
+  printf("%Enter the number to be checked");
   scanf("%d",&n);
   
-  if(n==reverseNo(n))
+  if(n==reverse(n))
   {
-    printf("Palindrome");
+    printf("%d is a Palindrome",n);
   }
   else
   { 
-    printf("Not a Palindrome number");
+    printf("%d is Not a Palindrome number",n);
   }
   return 0;
  }
