@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 void update(int *a,int *b) {
     int n=*a;
@@ -17,4 +18,3 @@ int main() {
 
     return 0;
 }
-
