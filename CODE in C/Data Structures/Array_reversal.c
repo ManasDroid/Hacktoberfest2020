@@ -23,10 +23,11 @@ int main()
         ip++;
         fp--;
     }
-    printf("Reversed arra is \n");
+    printf("Reversed array is: \n");
 
     for(i = 0; i < num; i++)
         printf("%d ", *(arr + i));
+    //removing the dynamically allocated memory
     free(arr);
     return 0;
 }
