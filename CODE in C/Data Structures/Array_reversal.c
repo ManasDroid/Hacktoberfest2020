@@ -4,8 +4,10 @@
 int main()
 {
     int num, *arr, i;
+    printf("Enter the number of elements in the array\n");
     scanf("%d", &num);
     arr = (int*) malloc(num * sizeof(int));
+    printf("Enter the elements into the array\n");
     for(i = 0; i < num; i++) {
         scanf("%d", arr + i);
     }
@@ -21,8 +23,10 @@ int main()
         ip++;
         fp--;
     }
+    printf("Reversed arra is \n");
 
     for(i = 0; i < num; i++)
         printf("%d ", *(arr + i));
+    free(arr);
     return 0;
 }
