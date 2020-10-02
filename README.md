@@ -1,2 +1,2 @@
 # Hacktoberfest2020
-This Repo is for beginner level C programming contributors.
+This Repo is for beginner level (any language) programming contributors.
