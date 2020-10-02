@@ -11,8 +11,10 @@ int main()
     for (a = 0; a < n; a++)
         scanf("%d", &array[a]);
 
-    for (a=0; a<n-1; a++)
+    int flag=0;                 //Flag is used to check whether there is swapping in one whole iteration
+    for (a=0; a<n-1; a++)       //and if not than break the loop(reducing time complexity)
     {
+        flag=0
         for (b=0 ; b<n-a-1; b++)
         {
             if (array[b] > array[b+1]) 
@@ -20,8 +22,11 @@ int main()
                 swap = array[b];
                 array[b] = array[b+1];
                 array[b+1] = swap;
+                flag=1;
             }
         }
+        if(!flag)
+            break;
     }
 
     printf("Sorted list in ascending order:\n");
