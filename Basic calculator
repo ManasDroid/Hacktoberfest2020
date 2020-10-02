@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<math.h>
+
+main()
+{
+float a,b,c, result;
+printf("enter the numbers and the operation.");
+scanf("%d %d" %d, &a,&b,&c);
+printf("select operation");
+switch (c)
+{
+case 1:
+     return a+b;
+     break;
+case 2:
+     return a-b;
+     break;
+case 3:
+     return a*b;
+     break;
+case 4:
+     return a/b;
+     break;
+case 5:
+     return pow(a,b)
+     break;
+case 6:
+     return sqrt(a);
+     break;
+case 7: 
+      return log(a);
+      break;
+}
+printf("result = %d", result);
+return 0;
+}
