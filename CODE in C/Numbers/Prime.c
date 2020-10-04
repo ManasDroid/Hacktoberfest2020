@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include<conio.h>
 int main() {
     int n, i, flag = 0;
+    clrscr();
     printf("Enter a positive integer: ");
     scanf("%d", &n);
 
@@ -23,5 +25,5 @@ int main() {
             printf("%d is not a Prime Number", n);
     }
 
-    return 0;
+    getch();
 }
