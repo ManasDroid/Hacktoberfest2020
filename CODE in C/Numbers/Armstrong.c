@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 int main(){
 	
 	int n,d=0;
 	int s=0;
-	
+	clrscr();
 	printf("Enter a Number\n");
 	scanf("%d",&n);
 	
@@ -21,5 +22,5 @@ int main(){
 	else
 		printf("It is not an Armstrong number");
 		
-	return 0;
+	getch();
 }
