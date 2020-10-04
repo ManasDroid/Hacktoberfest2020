@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include<conio.h>
  
 int main()
 {
     int number, rem, sum = 0, i;
+	clrscr;
  
     printf("Enter a Number\n");
     scanf("%d", &number);
@@ -18,5 +20,6 @@ int main()
         printf("Entered Number is perfect number");
     else
         printf("Entered Number is not a perfect number");
-    return 0;
+	
+    getch();
 }
