@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int reverseNo(int n)
 {
   while(n>0)
@@ -25,5 +26,5 @@ int main()
   { 
     printf("Not a Palindrome number");
   }
-  return 0;
+  getch();
  }
