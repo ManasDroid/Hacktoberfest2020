@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <conio.h>
 void main()  
 {  
     int i, n, n1, s1=0,j;  
     long fact; 
+    clrscr();
 
    
     printf("Input a number: ");  
@@ -30,4 +32,5 @@ void main()
     {  
         printf("\n%d is not Strong number.\n\n", n1);  
     }  
+    getch();
 }
