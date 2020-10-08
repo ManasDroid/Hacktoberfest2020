@@ -49,4 +49,5 @@ It's very easy. You don't need to be an expert in coding and programming. Just f
 New to Open Source? Don't know how to [`Create a Pull Request`](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)? read this documentation.
 
 If you like the repo, feel free to star:star2: the repo.
-<img src="" alt="star the repo" >
+
+<img src="assets/img/Github_star.png" alt="star the repo" >
