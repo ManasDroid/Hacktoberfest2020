@@ -51,3 +51,7 @@ New to Open Source? Don't know how to [`Create a Pull Request`](https://www.digi
 If you like the repo, feel free to star:star2: the repo.
 
 <img src="assets/img/Github_star.png" alt="star the repo" >
+
+### Made with ♥ by <a href="https://github.com/ManasDroid">ManasDroid</a>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ManasDroid)
