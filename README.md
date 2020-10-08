@@ -8,6 +8,7 @@
    <img src="https://img.shields.io/github/forks/ManasDroid/Hacktoberfest2020">
    <img src="https://img.shields.io/github/stars/ManasDroid/Hacktoberfest2020?color=green">
    <img src="https://komarev.com/ghpvc/?username=ManasDroid&color=blue">
+   <img src="https://img.shields.io/github/issues-pr/ManasDroid/Hacktoberfest2020.svg">
 </p>
 
 # Hacktoberfest-2020
@@ -18,10 +19,13 @@
 
 ### **How to contribute:**
 
-1. Check the issues section.
+1. Check the <a href="https://github.com/ManasDroid/Hacktoberfest2020/issues">issues</a> section.
 2. You are welcome to contribute to any issue you are comfortable with.
 3. Choose the language you are most comfortable with.
    - Please ensure that you add your work to the folder referenced in the issue.
-4. You can also raise your own issue or feature & create a new PR. I will then review it and merge it if is satisfactory.
+4. You can also raise <a href="https://github.com/ManasDroid/Hacktoberfest2020/issues/new">Create New Issue</a> or Feature & create a new PR. I will then review it and merge it if is satisfactory.
 
 [Instructions on making Pull Requests](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)
+
+If you like the repo, feel free to star:star2: the repo.
+<img src="" alt="star the repo" >
