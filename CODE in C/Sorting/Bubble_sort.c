@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+void swap(int * a,int *b){
+    int temp=*a;
+    *a=*b;
+    *b=temp;
+}
 int main()
 {
     int array[100], n, a, b, swap;
@@ -17,9 +21,7 @@ int main()
         {
             if (array[b] > array[b+1]) 
             {
-                swap = array[b];
-                array[b] = array[b+1];
-                array[b+1] = swap;
+                swap(&array[b],&array[b+1]);
             }
         }
     }
