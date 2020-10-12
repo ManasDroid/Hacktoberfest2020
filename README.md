@@ -52,6 +52,26 @@ If you like the repo, feel free to star:star2: the repo.
 
 <img src="https://github.com/souravroy-test/Hacktoberfest2020-1/blob/patch-1/assets/img/Github_star.png" alt="star the repo" >
 
+***
+
+## How to Update
+
+In the case when you kept the original repository git history, so you have to update your repo from remote to avoid comflict and update to date your repo with others work. 
+You can always pull and merge updates from the "upstream" repository back into your
+project by running:
+
+```bash
+$ git fetch upstream            # Fetch (upstream) repository
+$ git checkout main             # Switch to the main branch (or, master branch)
+$ git merge upstream/main       # Merge upstream/master into the local branch
+```
+**Or**
+```bash
+$ git checkout main             # Switch to the main branch (or, master branch)
+$ git pull origin main          # Fetch and Merge upstream/master into the local branch
+```
+***
+
 ### Made with ♥ by <a href="https://github.com/ManasDroid">ManasDroid</a>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ManasDroid)
