@@ -1,0 +1,105 @@
+#include<stdio.h>
+#include<stdlib.h>
+# define MAX 10
+
+int queue[MAX];
+int front=-1;
+int rear=-1;
+
+void enqueue();
+int dequeue();
+int peek();
+void display();
+int isFull();
+int isEmpty(); 
+
+int main()
+{
+    int ch;
+    while(1)
+    {
+        printf("1.Insert\n");
+        printf("2.Delete\n");
+        printf("3.Display element at the front\n");
+        printf("4.Display all elements of the queue\n");
+        printf("5.Quit\n");
+        printf("Enter your choice : ");
+        scanf("%d",&ch);
+        switch(ch)
+        {
+            case 1:
+                enqueue();
+                break;
+            case 2:
+                printf("The element dequeued is: %d\n",dequeue());
+                break;
+            case 3:
+                printf("The element at the front is: %d\n",peek());
+                break;
+            case 4:
+                display();
+                break;
+            case 5:
+                exit(1);
+                break;
+            default:
+                printf("Wrong Choice!");
+        }
+    }
+}
+
+void enqueue()
+{
+    if(!isFull())
+    {
+        rear++;
+        printf("Enter the element to be inserted into the Queue\n");
+        scanf("%d",&queue[rear]);
+    }
+    return;
+}
+int dequeue()
+{
+    if(!isEmpty())
+    {
+        front++;
+        return queue[front];
+    }
+    exit(1);
+}
+int peek()
+{
+if(!isEmpty())
+    return queue[front+1];
+exit(1);
+}
+void display()
+{
+    if(!isEmpty())
+    {
+        printf("front:    ");
+        for (int i=front+1;i<=rear;i++)
+            printf("%d  ",queue[i]);
+        printf("  :rear");
+    }
+    return;
+}
+int isFull()
+{
+    if(rear==MAX-1)
+    {
+        printf("The queue is full");
+        return 1;
+    }
+    return 0;
+    
+}
+int isEmpty()
+{
+    if(front==rear)
+    {
+        printf("The queue is empty\n");
+        return 1;
+    }
+    return 0;
+}
