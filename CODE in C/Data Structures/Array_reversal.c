@@ -1,16 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
-    int num, *arr, i;
+    int num, i;
     scanf("%d", &num);
-    arr = (int*) malloc(num * sizeof(int));
+    int arr[num];
     for(i = 0; i < num; i++) {
         scanf("%d", arr + i);
     }
-
-
     /* Write the logic to reverse the array. */
     int temp,ip=0,fp=num-1;
     while(ip < fp )
@@ -22,7 +19,8 @@ int main()
         fp--;
     }
 
-    for(i = 0; i < num; i++)
+    for(i = 0; i < num-1; i++)
         printf("%d ", *(arr + i));
+    printf("%d",*(arr+num-1));
     return 0;
 }
