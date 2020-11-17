@@ -1,12 +1,12 @@
-struct StudentData{
+typedef struct StudentData{
     char *stu_name;
     int stu_id;
     int stu_age;
-};
+}SD;
 int main()
 {
 
-     struct StudentData student;
+     SD student;
      student.stu_name = "Test";
      student.stu_id = 1234;
      student.stu_age = 18;
